@@ -4,11 +4,6 @@ import __about__
 
 REQUIREMENTS = [
     'python-dotenv',
-    'pandas>=1.1.0',
-    'psycopg2',
-    'sqlalchemy',
-    'alembic',
-    'arrow',
     'flask>=2.0.2',
     'flask_wtf',
     'wtforms',
@@ -28,7 +23,7 @@ setup(
     python_requires='>=3.6, !=3.7.2',
     entry_points={
         'console_scripts': [
-            'traitsgarden_app = traitsgarden.__main__:run',
+            'flaskdash_app = traitsgarden.__main__:run',
         ]
     },
 )
